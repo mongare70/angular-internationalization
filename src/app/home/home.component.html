@@ -1,0 +1,11 @@
+<p>{{ "welcomeMessage" | translate : user }}</p>
+
+<input type="password" placeholder="{{ 'login.password' | translate }}" />
+
+<br />
+
+<label translate="login.username"></label>
+
+<p translate [translateParams]="{ firstName: user.firstName }">
+  welcomeMessage
+</p>
