@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "translate": "node translate/app.js translate"
   },
   "private": true,
   "dependencies": {
@@ -18,10 +19,13 @@
     "@angular/platform-browser": "^15.2.0",
     "@angular/platform-browser-dynamic": "^15.2.0",
     "@angular/router": "^15.2.0",
+    "@google-cloud/translate": "^7.2.1",
     "@ngx-translate/core": "^14.0.0",
     "@ngx-translate/http-loader": "^7.0.0",
+    "dotenv": "^16.0.3",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
+    "yargs": "^17.7.2",
     "zone.js": "~0.12.0"
   },
   "devDependencies": {

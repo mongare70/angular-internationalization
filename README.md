@@ -9,6 +9,10 @@
 - Run `npm install`
 - Run `ng serve`
 
+### Translation
+- Open `translate` folder and follow `README.md` instructions 
+- Run `npm run translate -- --lang=<language_code>` to create corresponding [language_code].json file you desire
+
 ### Authors
 
 - [Hillary Mongare](https://github.com/mongare70)
