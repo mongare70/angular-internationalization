@@ -14,7 +14,7 @@ export class AppComponent implements OnInit {
   // passwordLabel!: string;
 
   constructor(private translate: TranslateService) {
-    translate.addLangs(['en', 'fr', 'sw']);
+    translate.addLangs(['en', 'fr', 'sw', 'es', 'pt', "am"]);
     translate.setDefaultLang('en');
   }
 

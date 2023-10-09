@@ -3,10 +3,10 @@ const fs = require("fs");
 
 require("dotenv").config();
 
-const projectId = process.env.PROJECT_ID;
-
 // Instantiates a client
-const translate = new Translate({ projectId });
+const translate = new Translate({
+  key: process.env.GOOGLE_TRANSLATE_API_KEY,
+});
 
 const inputPath = "src/assets/i18n/en.json";
 

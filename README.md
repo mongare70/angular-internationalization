@@ -10,7 +10,9 @@
 - Run `ng serve`
 
 ### Translation
-- Open `translate` folder and follow `README.md` instructions 
+- cd into `translate` folder and follow `README.md` instructions 
+- cd back to application's root folder
+- Run `export GOOGLE_TRANSLATE_API_KEY=<your api key>`
 - Run `npm run translate -- --lang=<language_code>` to create corresponding [language_code].json file you desire
 
 ### Authors
